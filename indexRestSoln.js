@@ -93,7 +93,6 @@ type Mutation{
 `);
 // The root provides a resolver function for each API endpoint
 
-
 var root = {
   restaurant : (arg)=>restaurants[arg.id],
   restaurants : ()=> restaurants,
